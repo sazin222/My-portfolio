@@ -7,7 +7,7 @@ const HeroHeader = () => {
     const pdfUrl = "MAHADI ISLAM SAZIN.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "document.pdf"; // specify the filename
+    link.download = "document.pdf"; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -16,7 +16,7 @@ const HeroHeader = () => {
   return (
     <div className="flex justify-between w-full pt-8 items-center h-[12%]">
       <img
-        src="./assets/logo.png"
+        src="/src/assets/Screenshot_90-removebg-preview.png"
         alt=""
         className="w-[33%] sm:w-[25%] md:w-[18%] lg:w-[13%]"
       />

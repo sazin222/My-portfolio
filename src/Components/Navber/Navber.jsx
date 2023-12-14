@@ -25,7 +25,7 @@ const Navbar = () => {
       setTheme(theme);
       html.classList.add(theme);
     }
-  }, []);
+  }, [html.classList]);
 
   const handleTheme = () => {
     // console.log("clicked");
@@ -57,27 +57,12 @@ const Navbar = () => {
     <nav className="sticky top-0 left-0 bg-nav z-20">
       <Container className="flex justify-between items-center text-[14px] font-generalBold  ">
         <img
-          src="/src/assets/ernst-young-ey-logo-svgrepo-com.svg"
+          src="/src/assets/Screenshot_90-removebg-preview.png"
           alt=""
           className="w-[33%] sm:w-[25%] md:w-[18%] lg:w-[13%] lg:py-0 py-3"
         />
         <ul className="flex w-[60%] justify-end items-center text-white ">
-          {/* {navLinks.map((link) => (
-            <Link
-              key={link}
-              spy={true}
-              smooth={true}
-              offset={link === "SKILLS" || link === "HOME" ? 300 : -100}
-              duration={500}
-              onClick={() => handleActiveLink(link)}
-              to={link.toLowerCase()}
-              className={`${
-                activeLink === link ? "bg-secondary text-white" : ""
-              } py-6 px-6 cursor-pointer hidden lg:block`}
-            >
-              {link}
-            </Link>
-          ))} */}
+         
           <button
             onClick={() => handleActiveLink("HOME")}
             // to="home"

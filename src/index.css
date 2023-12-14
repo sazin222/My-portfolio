@@ -35,7 +35,7 @@
 @layer {
   .hero-bg {
     background: linear-gradient(to right, rgb(0 0 0 / 80%), rgb(33 33 33 / 80%)),
-      url("/assets/hero-bg.png");
+      url("/src/Components/Section/Hero/hero-bg.jpg.jpg");
     background-size: cover;
   }
 

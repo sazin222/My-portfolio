@@ -8,7 +8,7 @@ const DropDown = ({ navLinks, menu, setMenu }) => {
   return (
     <div
       className={`lg:hidden absolute  w-[100vw] min-h-[200px] bg-white ${
-        menu ? "top-12 left-0" : "top-12 -left-[100%] "
+        menu ? "top-12 left-0" : "top-12 -left-[150%] "
       } duration-300 `}
     >
       <Container className="pb-3">
