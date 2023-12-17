@@ -1,5 +1,12 @@
 import mypicture from '../../../assets/icon/photo.jpg.jpg'
-
+import javaScript from '../../../assets/icon/icons8-javascript-48.png'
+import Reactjs from '../../../assets/icon/icons8-react-js-16.png'
+import firebase from '../../../assets/icon/icons8-firebase-48.png'
+import node from '../../../assets/icon/icons8-node-js-48.png'
+import mongodb from '../../../assets/icon/icons8-mongodb-48.png'
+import GITHUB_LINK, {
+    FB_LINK,
+  } from "../../links/links";
 import {
   FaArrowRightFromBracket,
   FaLocationDot,
@@ -8,7 +15,6 @@ import {
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { BiLogoFacebookCircle } from "react-icons/bi";
 import { AiFillPhone } from "react-icons/ai";
-import { SlSocialLinkedin } from "react-icons/sl";
 import Container from "../../Shared/Container";
 import SectionHeader from "../../Shared/SectionHeader";
 import SpanBold from "../../Shared/SpanBold";
@@ -108,15 +114,15 @@ const AboutLg = () => {
             <FaArrowRightFromBracket className="text-2xl " />
           </div>
           <div className="flex justify-between w-[95%] items-end">
-            <img src="" alt="" className="w-[7%]" />
+          <img  src={javaScript} alt="" className="w-[8%] bg-white" />
             <img
-              src=""
+              src={firebase}
               alt=""
               className="w-[9%]"
             />
-            <img src="" alt="" className="w-[8%]" />
-            <img src="" alt="" className="w-[8%]" />
-            <img src="" alt="" className="w-[8%]" />
+            <img src={Reactjs} alt="" className="w-[8%]" />
+            <img src={node} alt="" className="w-[8%]" />
+            <img src={mongodb} alt="" className="w-[8%]" />
 
             <p className="text-3xl font-generalBold">. . .</p>
           </div>
@@ -131,14 +137,22 @@ const AboutLg = () => {
             </p>
           </div>
           <div className="flex items-center gap-2 pt-2 lg:pt-0">
-            <div className="p-1 text-3xl text-black bg-white rounded-md  lg:text-5xl">
+            {/* <div className="p-1 text-3xl text-black bg-white rounded-md  lg:text-5xl">
               <FaGithub />
+            </div> */}
+             <div className=" bg-white text-5xl text-black rounded-md p-1">
+              <a href={GITHUB_LINK} target="_blank" rel="noopener noreferrer">
+                <FaGithub />
+              </a>
             </div>
-            <div className="p-3 text-lg text-white bg-black rounded-md  lg:text-4xl">
-              <SlSocialLinkedin />
-            </div>
-            <div className="p-1 text-3xl text-black bg-white rounded-md  lg:text-5xl">
+            
+            {/* <div className="p-1 text-3xl text-black bg-white rounded-md  lg:text-5xl">
               <BiLogoFacebookCircle />
+            </div> */}
+            <div className=" bg-white text-5xl text-black rounded-md p-1">
+              <a href={FB_LINK} target="_blank" rel="noopener noreferrer">
+                <BiLogoFacebookCircle />
+              </a>
             </div>
           </div>
         </div>
@@ -151,14 +165,16 @@ const AboutLg = () => {
             </p>
           </div>
           <div className="flex items-center gap-2 pt-2 lg:pt-0">
-            <div className="p-1 text-3xl text-black bg-white rounded-md  lg:text-5xl">
-              <FaGithub />
+          <div className=" bg-white text-5xl text-black rounded-md p-1">
+              <a href={GITHUB_LINK} target="_blank" rel="noopener noreferrer">
+                <FaGithub />
+              </a>
             </div>
-            <div className="p-3 text-lg text-white bg-black rounded-md  lg:text-4xl">
-              <SlSocialLinkedin />
-            </div>
-            <div className="p-1 text-3xl text-black bg-white rounded-md  lg:text-5xl">
-              <BiLogoFacebookCircle />
+           
+            <div className=" bg-white text-5xl text-black rounded-md p-1">
+              <a href={FB_LINK} target="_blank" rel="noopener noreferrer">
+                <BiLogoFacebookCircle />
+              </a>
             </div>
           </div>
         </div>

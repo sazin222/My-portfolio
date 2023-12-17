@@ -151,11 +151,7 @@ const About = () => {
                 <FaGithub />
               </a>
             </div>
-            {/* <div className=" text-4xl rounded-md p-3 bg-black text-white">
-              <a href={LINKEDIN_LINK} target="_blank" rel="noopener noreferrer">
-                <SlSocialLinkedin />
-              </a>
-            </div> */}
+            
             <div className=" bg-white text-5xl text-black rounded-md p-1">
               <a href={FB_LINK} target="_blank" rel="noopener noreferrer">
                 <BiLogoFacebookCircle />
@@ -168,7 +164,7 @@ const About = () => {
         <div className="border border-black col-span-2 row-span-2 resume font-generalBold flex justify-between flex-col p-2 bg-black-dark rounded-lg text-white">
           <a
             href={RESUME_LINK}
-            download="kazi_towfiq_web_developer_resume"
+            download="MAHADI ISLAM SAZIN "
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -3,7 +3,12 @@ import './App.css'
 import Navbar from './Components/Navber/Navber'
 import About from './Components/Section/About/About'
 import AboutLg from './Components/Section/About/AboutLg'
+import Experience from './Components/Section/Expreience/Expraience'
 import Hero from './Components/Section/Hero/Hero'
+import Project from './Components/Section/Projects/Project'
+import Skills from './Components/Section/Skills/Skills'
+import Contact from './Components/Shared/Contact'
+import Education from './Components/Shared/Education'
 
 function App() {
  
@@ -15,6 +20,11 @@ function App() {
         <Navbar />
         <About></About>
         <AboutLg></AboutLg>
+        <Experience></Experience>
+        <Skills></Skills>
+        <Project></Project>
+        <Education></Education>
+        <Contact></Contact>
        
       </section>
     </div>
