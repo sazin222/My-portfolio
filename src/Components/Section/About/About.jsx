@@ -4,6 +4,7 @@ import Reactjs from '../../../assets/icon/icons8-react-js-16.png'
 import firebase from '../../../assets/icon/icons8-firebase-48.png'
 import node from '../../../assets/icon/icons8-node-js-48.png'
 import mongodb from '../../../assets/icon/icons8-mongodb-48.png'
+import tailwind from '../../../assets/icon/tailwind-css.svg'
 import myPic from '../../../assets/icon/photo.jpg.jpg'
 
 import {
@@ -78,7 +79,7 @@ const About = () => {
           </div>
           <div className="flex flex-col items-end mt-12 justify-between h-[60%]">
             <div className="border border-[rgba(217, 217, 217, 0.47)] w-full p-2 font-generalSemiBold rounded-md bg-[#2D2D2D] shadow-lg">
-              <p>Cuisine Share</p>
+              <p>Technology For projects</p>
               <div className="flex gap-4 mt-4 items-center">
                 <img src="./assets/icons/html-sm-sm.png" alt="" />
 
@@ -130,6 +131,7 @@ const About = () => {
               className="w-[9%]"
             />
             <img src={Reactjs} alt="" className="w-[8%]" />
+            <img src={tailwind} alt="" className="w-[10%]" />
             <img src={node} alt="" className="w-[8%]" />
             <img src={mongodb} alt="" className="w-[8%]" />
 

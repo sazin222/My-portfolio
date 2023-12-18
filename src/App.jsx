@@ -5,7 +5,8 @@ import About from './Components/Section/About/About'
 import AboutLg from './Components/Section/About/AboutLg'
 import Experience from './Components/Section/Expreience/Expraience'
 import Hero from './Components/Section/Hero/Hero'
-import Project from './Components/Section/Projects/Project'
+import CreativeStudy from './Components/Section/Projects/CreativeStudy/CreativeStudy'
+
 import Skills from './Components/Section/Skills/Skills'
 import Contact from './Components/Shared/Contact'
 import Education from './Components/Shared/Education'
@@ -22,7 +23,7 @@ function App() {
         <AboutLg></AboutLg>
         <Experience></Experience>
         <Skills></Skills>
-        <Project></Project>
+        <CreativeStudy></CreativeStudy>
         <Education></Education>
         <Contact></Contact>
        

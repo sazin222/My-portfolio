@@ -2,7 +2,7 @@
 
 
 const SpanBold = ({ children }) => {
-  return <span className="font-generalBold">{children}</span>;
+  return <span className="font-bold">{children}</span>;
 };
 
 export default SpanBold;

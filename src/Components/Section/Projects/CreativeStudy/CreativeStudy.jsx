@@ -1,16 +1,24 @@
+/* eslint-disable no-undef */
 import { Button } from "react-scroll";
 import SpanBold from "../../../Shared/SpanBold";
 import ProjectTitle from "../../../Shared/ProjectTitle";
-import Tech from "../../../Shared/Tech";
 import creative1 from '../../../../assets/image/screencapture-venerable-dango-2cd0e0-netlify-app-2023-12-15-20_37_25.png'
 import creative2 from '../../../../assets/image/screencapture-venerable-dango-2cd0e0-netlify-app-dashboard-studentProfile-2023-12-15-20_40_03.png'
 import creative3 from '../../../../assets/image/screencapture-venerable-dango-2cd0e0-netlify-app-dashboard-users-2023-12-15-20_42_13.png'
 import creative4 from '../../../../assets/image/screencapture-venerable-dango-2cd0e0-netlify-app-pay-amount-656745915edd821ed5a6140f-2023-12-15-20_39_27.png'
+import SectionHeader from "../../../Shared/SectionHeader";
+import Container from "../../../Shared/Container";
 
 
 const CreativeStudy = () => {
     return (
-        <section className="mt-5 mb-40 dark:text-white">
+
+      <Container
+      className="w-[100%] bg-transparent min-h-[500px] "
+      id="projects"
+    >
+      <SectionHeader name="PROJECTS" z={30} />
+      <section  className="mt-5 mb-40 dark:text-white">
       <ProjectTitle title="Student Management" />
 
       {/* First Grid */}
@@ -58,9 +66,9 @@ const CreativeStudy = () => {
         </div>
       </div>
 
-      {/* Description */}
+     
       <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 ">
-        {/* About and Tech used */}
+       
         <div className="flex flex-col justify-between">
           <p className="w-[90%] font-poppins">
             This is a <SpanBold>Full stack Student Management</SpanBold> website built
@@ -68,32 +76,27 @@ const CreativeStudy = () => {
             <SpanBold>MERN (MongoDB, Express.js, React.js, Node.js)</SpanBold>{" "}
             stack. The platform provides a secure{" "}
             <SpanBold>authentication</SpanBold> system, efficient product
-            exploration, shopping cart management, a seamless checkout process
+            exploration, Student class management, a seamless checkout process
             with <SpanBold>stripe payment system</SpanBold> and{" "}
             <SpanBold>ADMIN DASHBOARD</SpanBold>.
           </p>
 
-          {/* Tech Used  */}
-          <Tech skills={'CreativeStudy'} />
-
-          {/* Call To action button */}
           <div className="mt-14 flex gap-4">
-            <a href={S} target="_blank" rel="noopener noreferrer">
-              <Button className="text-sm md:text-base border border-black dark:border-white text-black dark:text-white py-2 px-7">
+            <a className="text-sm md:text-base border border-black dark:border-white text-black dark:text-white py-2 px-7" href='https://github.com/sazin222/student-class-management-client.git' target="_blank" rel="noopener noreferrer">
+              
                 Client
-              </Button>
+              
             </a>
 
-            <a href={S} target="_blank" rel="noopener noreferrer">
-              <Button className="text-sm md:text-base border border-black dark:border-white text-black dark:text-white py-2 px-7">
+            <a className="text-sm md:text-base border border-black dark:border-white text-black dark:text-white py-2 px-7" href='https://github.com/sazin222/student-class-management-server.git' target="_blank" rel="noopener noreferrer">
+            
                 Server
-              </Button>
+              
             </a>
 
-            <a href={j} target="_blank" rel="noopener noreferrer">
-              <Button className="text-sm md:text-base bg-black text-white py-2 px-8">
-                Live
-              </Button>
+            <a className="text-sm md:text-base border border-black dark:border-white text-black dark:text-white py-2 px-7"  href="https://venerable-dango-2cd0e0.netlify.app" target="_blank" rel="noopener noreferrer">
+            
+              Live
             </a>
           </div>
         </div>
@@ -109,20 +112,22 @@ const CreativeStudy = () => {
             </div>
             <div className="grid grid-cols-2 list-outside">
               <li>User Dashboard</li>
-              <li>Cart System</li>
+              <li>Class enroll System</li>
             </div>
             <div className="grid grid-cols-2 list-outside">
               <li>Fully Responsive</li>
-              <li>Parallel Filtering and Search</li>
+              <li>Teacher Request System</li>
             </div>
             <div className="grid grid-cols-2 list-outside">
-              <li>Order Management</li>
-              <li>Bookmarked products</li>
+              <li>Class Management</li>
+              <li>Enrolled Class</li>
             </div>
           </div>
         </div>
       </div>
     </section>
+    </Container>
+        
     );
 };
 
