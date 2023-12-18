@@ -44,7 +44,7 @@ const Contact = () => {
           🤚 Hello, Let's get in touch
         </p>
         <form ref={form} onSubmit={sendEmail}>
-          <div className="my-10 flex flex-col">
+          <div className="my-10 flex text-left flex-col">
             <label
               htmlFor="name"
               className="cursor-pointer text-[#6F6F6F] font-generalSemibold text-md"
@@ -58,7 +58,7 @@ const Contact = () => {
               className=" border-b border-[#343434] text-[#6F6F6F] text-sm caret-white focus:outline-none bg-transparent w-full md:w-3/5 lg:w-2/5 pt-3"
             />
           </div>
-          <div className="my-10 flex flex-col">
+          <div className="my-10  text-left  flex flex-col">
             <label
               htmlFor="email"
               className="cursor-pointer text-[#6F6F6F] font-generalSemibold text-md"
@@ -73,7 +73,7 @@ const Contact = () => {
               className=" border-b border-[#343434] text-[#6F6F6F] text-sm caret-white focus:outline-none bg-transparent w-full md:w-3/5 lg:w-2/5"
             />
           </div>
-          <div className="my-10 flex flex-col">
+          <div className="my-10  text-left  flex flex-col">
             <label
               htmlFor="message"
               className="cursor-pointer text-[#6F6F6F] font-generalSemibold text-md"
@@ -88,7 +88,7 @@ const Contact = () => {
               className=" border-b border-[#343434] text-[#6F6F6F] text-sm caret-white focus:outline-none bg-transparent w-full md:w-3/5 lg:w-2/5 mt-12"
             />
           </div>
-          <button className="bg-[#FFFFFF] text-[#000000] border border-black px-6 py-1 md:px-8 md:py-2 mb-4 text-[12px] lg:text-sm active:scale-95 duration-[.4s] font-generalSemibold">
+          <button className="bg-[#FFFFFF]  text-[#000000] border border-black px-6 py-1 md:px-8 md:py-2 mb-4 text-[12px]  lg:text-sm active:scale-95 duration-[.4s] font-generalSemibold">
             SEND
           </button>
         </form>

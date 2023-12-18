@@ -10,6 +10,7 @@ import CreativeStudy from './Components/Section/Projects/CreativeStudy/CreativeS
 import Skills from './Components/Section/Skills/Skills'
 import Contact from './Components/Shared/Contact'
 import Education from './Components/Shared/Education'
+import Footer from './Components/Shared/Footer'
 
 function App() {
  
@@ -26,6 +27,7 @@ function App() {
         <CreativeStudy></CreativeStudy>
         <Education></Education>
         <Contact></Contact>
+        <Footer></Footer>
        
       </section>
     </div>

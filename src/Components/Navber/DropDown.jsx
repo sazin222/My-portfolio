@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 
 import { CiMenuFries } from "react-icons/ci";
 import Container from "../Shared/Container";

@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-import { Button } from "react-scroll";
 import SpanBold from "../../../Shared/SpanBold";
 import ProjectTitle from "../../../Shared/ProjectTitle";
 import creative1 from '../../../../assets/image/screencapture-venerable-dango-2cd0e0-netlify-app-2023-12-15-20_37_25.png'
@@ -8,6 +7,8 @@ import creative3 from '../../../../assets/image/screencapture-venerable-dango-2c
 import creative4 from '../../../../assets/image/screencapture-venerable-dango-2cd0e0-netlify-app-pay-amount-656745915edd821ed5a6140f-2023-12-15-20_39_27.png'
 import SectionHeader from "../../../Shared/SectionHeader";
 import Container from "../../../Shared/Container";
+import FoodSharing from "../FoodSharing";
+import AutomotiveBrand from "../AutomotiveBrand";
 
 
 const CreativeStudy = () => {
@@ -126,6 +127,8 @@ const CreativeStudy = () => {
         </div>
       </div>
     </section>
+     <FoodSharing></FoodSharing>
+     <AutomotiveBrand></AutomotiveBrand>
     </Container>
         
     );
